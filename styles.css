@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    border: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1,
+h2 {
+    color: #229c28;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    margin: 20px auto;
+}
+
+section {
+    margin-top: 50px;
+}
+
+table {
+    border: 0.5px solid #171596;
+    border-collapse: collapse;
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+th {
+    background-color: #70be83;
+    color: white;
+    text-transform: uppercase;
+}
+
+tr:nth-child(odd) {
+    background-color: #b0ebae;
+}
+
+th,
+td {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.monospace {
+    font-family: monospace;
+}
